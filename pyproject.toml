@@ -9,7 +9,7 @@ authors = [
     { email = "johannes-programming@mailfence.com", name = "Johannes" },
 ]
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
@@ -19,12 +19,12 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = []
-description = "unhash"
+description = "This project provides a hash method that always raises TypeError."
 keywords = []
 name = "unhash"
 readme = "README.rst"
-requires-python = ">=3.12.7"
-version = "0.0.0.dev0"
+requires-python = ">=3.8"
+version = "0.0.0.dev0+local"
 
 [project.license]
 file = "LICENSE.txt"
