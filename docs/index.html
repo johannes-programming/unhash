@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>unhash</title>
+</head>
+    <body>
+        <dl class="heading0">
+            <dt><a>unhash</a></dt>
+            <dd>
+                <dl class="heading1">
+                    <dt id="intro">Introduction</dt>
+                    <dd id="introCorpus">
+                        <p>
+                            This project provides a hash method that always raises TypeError.
+                        </p>
+                    </dd>
+                    <dt id="links">Links</dt>
+                    <dd id="linksCorpus"></dd>
+                    <dt id="install">Installation</dt>
+                    <dd id="installCorpus"></dd>
+                    <dt id="implement">Usage</dt>
+                    <dd id="implementCorpus">
+                        <pre class="block"><code>from typing import *
+
+__all__ = ["unhash"]
+
+
+def __hash__(self, /) -> int:
+    "This magic method implements hash(self) and raises a TypeError when it is called."
+    raise TypeError("unhashable type: %r" % type(self).__name__)
+
+
+unhash = __hash__</code></pre>
+                    </dd>
+                    <dt id="testing">Testing</dt>
+                    <dd id="testingCorpus"></dd>
+                    <dt id="license">License</dt>
+                    <dd id="licenseCorpus"></dd>
+                    <dt id="impressum">Impressum</dt>
+                    <dd id="impressumCorpus"></dd>
+                </dl>
+            </dd>
+        </dl>
+    </body>
+    <script src="https://www.johannes-programming.online/script.js"></script>
+    <script>
+        setupLinksCorpus("unhash");
+        setupInstallCorpus("unhash");
+        setupTestingCorpus("unhash");
+        setupLicenseCorpus("unhash");
+        setupImpressumCorpus("unhash");
+        addMetaAndLinkTags();
+    </script>
+</html>
